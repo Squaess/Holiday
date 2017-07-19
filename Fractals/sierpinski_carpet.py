@@ -1,11 +1,12 @@
 import turtle
 PROGNAME = 'Sierpinski Carpet'
-SIZE = 150
+SIZE = 200
 CENTER = [0,0]
 
+#Disable screen refreshing
+turtle.tracer(0, 0)
 
 myPen = turtle.Turtle()
-myPen.speed(1000000000)
 myPen.color("#000000")
 myPen.penup()
 
