@@ -43,6 +43,11 @@ body {
     height: 142px;
     background-color: #3095d3;
     float: left;
+    text-align: center;
+}
+
+.tile1:hover {
+    background-color: #2084c2;
 }
 
 .tile2 {
@@ -51,6 +56,11 @@ body {
     height: 142px;
     background-color: #666666;
     float: left;
+    text-align: center;
+}
+
+.tile2:hover {
+    background-color: #555555;
 }
 
 .tile3 {
@@ -59,20 +69,36 @@ body {
     height: 142px;
     background-color: #93c748;
     float: left;
+    text-align: center;
+}
+
+.tile3:hover {
+    background-color: #82b637;
 }
 
 .tile4 {
     margin: 10px;
-    width: 480px;
-    height: 142px;
+    width: 420px;
+    height: 82px;
     background-color: #ee5a32;
+    text-align: center;
+    font-size: 26px;
+    padding: 30px;
+    line-height: 150%;
+}
+
+.tile4:hover {
+    background-color: #dd4921;
 }
 
 .tile5 {
     margin: 10px;
-    width: 480px;
-    height: 304px;
+    width: 420px;
+    height: 244px;
     background-color: #666666;
+    text-align: center;
+    text-align: justify;
+    padding: 30px;
 }
 
 .yt {
@@ -83,12 +109,20 @@ body {
     float: left;
 }
 
+.yt:hover {
+    background-color: #c83237;
+}
+
 .fb {
     margin: 10px;
     width: 105px;
     height: 142px;
     background-color: #4668b3;
     float: left;
+}
+
+.fb:hover {
+    background-color: #3557a2;
 }
 
 .gp {
@@ -99,10 +133,18 @@ body {
     float: left;
 }
 
+.gp:hover {
+    background-color: #c84222;
+}
+
 .tw {
     margin: 10px;
     width: 105px;
     height: 142px;
     background-color: #3095d3;
     float: left;
+}
+
+.tw:hover {
+    background-color: #2084c2;
 }
